@@ -1,0 +1,120 @@
+@media screen and (max-width: 1600px) {
+    .imagem {
+        width: 800px;
+        height: 400px;
+    }
+    .img-livros {
+        width: 350px;
+    }
+    .img-toque-cultura {
+        width: 550px;
+        height: 200px;
+    }
+    .img-fisico {
+        padding: 10px;
+        width: 33%;
+    }
+    iframe {
+        width: 500px;
+        height: 300px
+    }
+    .introducao h1,
+    h3 {
+        width: 50%;
+    }
+    .introducao h3 {
+        width: 50%;
+    }
+    header {
+        border-bottom: 2.5px solid #F28C26;
+        padding-right: 8em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .img-quem-somos {
+        width: 600px;
+    }
+    .img-fisico {
+        padding: 10px;
+        width: 40%;
+    }
+    iframe {
+        width: 500px;
+    }
+    header {
+        border-bottom: 2.5px solid #F28C26;
+        padding: 0em 2em;
+    }
+    header nav.active {
+        left: 0;
+    }
+    header nav {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: 80px;
+        left: -100%;
+        transition: all ease-in-out 0.9s;
+    }
+    header nav ul {
+        display: block;
+    }
+    header nav ul li a {
+        border-bottom: 2.5px solid #F28C26;
+        color: #F28C26;
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .btn-menu {
+        height: auto;
+        display: block;
+        color: #F28C26;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-quem-somos {
+        width: 600px;
+    }
+    .img-fisico {
+        padding: 10px;
+        width: 45%;
+    }
+    iframe {
+        width: 500px;
+    }
+    .introducao h1,
+    h3 {
+        width: 72%;
+        color: white;
+    }
+    .introducao h3 {
+        width: 80%;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img-quem-somos {
+        width: 530px;
+    }
+    .img-fisico {
+        padding: 10px;
+        width: 100%;
+    }
+    .img-toque-cultura {
+        width: 100%;
+    }
+    iframe {
+        width: 110%;
+    }
+    .introducao h1,
+    h3 {
+        width: 90%;
+    }
+    .introducao h3 {
+        width: 90%;
+    }
+}
