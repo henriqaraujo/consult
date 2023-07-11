@@ -1,0 +1,56 @@
+.container-img img {
+    width: 360px;
+    height: 200px;
+}
+
+.container-img_2 img {
+    width: 555.5px;
+    height: 250px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    grid-gap: 30px;
+    width: 60%;
+}
+.grid1 div:nth-child(n + 1){
+    background: #E9E9E9;
+}
+
+.font-imgs p{
+    padding: 1.3rem;
+    text-align: center;
+    font-family: 'Roboto';
+    color:  #005497;
+}
+
+.font-imgs h4{
+    padding: 1rem;
+    font-family: 'Roboto';
+    color: #5f5e5e;
+}
+
+.btn-conheca-servico{
+    text-decoration: none;
+    width: 100%;
+    background: #0088CC;
+    height: 38px;
+    font-family: 'roboto condensed';
+    font-weight: 600;
+}
+
+.btn-conheca-servico a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.btn-conheca-servico:hover {
+    transform: none;
+    transition: all 0.2s ease-in-out 0s;
+    background-color:  #01699c;
+}
+
