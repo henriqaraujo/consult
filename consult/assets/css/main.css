@@ -222,7 +222,7 @@ input, select, textarea {
 		}
 
 	.timestamp {
-		color: rgba(128, 128, 128, 0.75);
+		color: rgba(194, 191, 191, 0.822);
 		font-size: 0.8em;
 	}
 
@@ -1795,6 +1795,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			height: 260px;
 		}
 
 		.image.fit {
@@ -1915,7 +1916,7 @@ input, select, textarea {
 
 	ul.icons {
 		position: relative;
-		background: rgba(128, 128, 128, 0.05);
+		background: rgba(13, 228, 228, 0.05);
 		border-radius: 4em;
 		display: inline-block;
 		padding: 0.35em 0.75em 0.35em 0.75em;
@@ -1927,6 +1928,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding-left: 0;
+			color: #ffffff;
 		}
 
 			ul.icons li a {
@@ -1942,7 +1944,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #1395ff;
 				}
 
 /* Form */
@@ -2179,10 +2181,12 @@ input, select, textarea {
 		background: #fff;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
+		
 	}
 
 		.wrapper.style2 {
 			padding-top: 0;
+			align-items: left;
 		}
 
 /* Header */
@@ -2221,6 +2225,7 @@ input, select, textarea {
 			#header header > p {
 				font-size: 1.25em;
 				margin: 0;
+				text-align: center;
 			}
 
 		#header h1 {
@@ -2466,18 +2471,23 @@ input, select, textarea {
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
-	#main a video{
-		align-items: center;
-		border: 1px solid red;
+	
+	#main > div{
+		text-align: center;
 	}
+
 /* Footer */
 
 	#footer {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
-		color: #fff;
+		background-image: url("images/fundo-azul.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		width: 100%;
+
 	}
 
 		#footer .icon.circled {
@@ -2505,13 +2515,13 @@ input, select, textarea {
 
 		#footer .copyright {
 			text-align: center;
-			color: rgba(128, 128, 128, 0.75);
+			color: rgba(194, 191, 191, 0.822);
 			font-size: 0.8em;
 			cursor: default;
 		}
 
 			#footer .copyright a {
-				color: rgba(128, 128, 128, 0.75);
+				color: rgba(194, 191, 191, 0.822);
 			}
 
 				#footer .copyright a:hover {
@@ -2675,12 +2685,7 @@ input, select, textarea {
 				line-height: 1.5em;
 			}
 
-		/* Wrapper */
-
-			.wrapper {
-				padding-left: 2em;
-				padding-right: 2em;
-			}
+	
 
 		/* Header */
 
